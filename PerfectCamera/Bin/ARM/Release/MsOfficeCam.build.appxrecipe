@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KAY-PC</Machine>
+    <WindowsUser>cynos_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>cbd66e69-a540-4ae5-8827-3d4f6f210c52</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.dll">
+      <PackagePath>PerfectCamera.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\FiftyNine.Ag.OpenXML.Common.dll">
+      <PackagePath>FiftyNine.Ag.OpenXML.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\FiftyNine.Ag.OpenXML.Excel.dll">
+      <PackagePath>FiftyNine.Ag.OpenXML.Excel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Auth.1.9.2\lib\wp8\Google.Apis.Auth.dll">
+      <PackagePath>Google.Apis.Auth.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Auth.1.9.2\lib\wp8\Google.Apis.Auth.PlatformServices.dll">
+      <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Core.1.9.2\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.dll">
+      <PackagePath>Google.Apis.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.1.9.2\lib\wp8\Google.Apis.dll">
+      <PackagePath>Google.Apis.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.1.9.2\lib\wp8\Google.Apis.PlatformServices.dll">
+      <PackagePath>Google.Apis.PlatformServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\GoogleAnalyticsSDK.1.3.00\lib\windowsphone8\GoogleAnalytics.Core.dll">
+      <PackagePath>GoogleAnalytics.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\GoogleAnalyticsSDK.1.3.00\lib\windowsphone8\GoogleAnalytics.dll">
+      <PackagePath>GoogleAnalytics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\SharpZipLib.Portable.0.86.0.0003\lib\portable-net45+netcore45+wp8+win8+wpa81+MonoTouch+MonoAndroid+Xamarin.iOS10\ICSharpCode.SharpZipLib.Portable.dll">
+      <PackagePath>ICSharpCode.SharpZipLib.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\lib\wp8\Lumia.Imaging.Managed.dll">
+      <PackagePath>Lumia.Imaging.Managed.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll">
+      <PackagePath>NISDKExtendedEffects.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll">
+      <PackagePath>Nokia.Graphics.Imaging.Managed.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\SharpZipLib.dll">
+      <PackagePath>SharpZipLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\..\..\lib\wp8\ARM\Lumia.Imaging.dll">
+      <PackagePath>Lumia.Imaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\..\..\lib\wp8\ARM\Lumia.InteropServices.WindowsRuntime.dll">
+      <PackagePath>Lumia.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.dll">
+      <PackagePath>Nokia.Graphics.Imaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll">
+      <PackagePath>Nokia.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
+      <PackagePath>zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\\..\..\lib\wp8\ARM\Lumia.Imaging.winmd">
+      <PackagePath>Lumia.Imaging.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\\..\..\lib\wp8\ARM\Lumia.InteropServices.WindowsRuntime.winmd">
+      <PackagePath>Lumia.InteropServices.WindowsRuntime.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd">
+      <PackagePath>Nokia.Graphics.Imaging.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd">
+      <PackagePath>Nokia.InteropServices.WindowsRuntime.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.1.9.2\lib\wp8\Google.Apis.xml">
+      <PackagePath>Google.Apis.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Auth.1.9.2\lib\wp8\Google.Apis.Auth.xml">
+      <PackagePath>Google.Apis.Auth.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Auth.1.9.2\lib\wp8\Google.Apis.Auth.PlatformServices.xml">
+      <PackagePath>Google.Apis.Auth.PlatformServices.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.Core.1.9.2\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.xml">
+      <PackagePath>Google.Apis.Core.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Google.Apis.1.9.2\lib\wp8\Google.Apis.PlatformServices.xml">
+      <PackagePath>Google.Apis.PlatformServices.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\SharpZipLib.Portable.0.86.0.0003\lib\portable-net45+netcore45+wp8+win8+wpa81+MonoTouch+MonoAndroid+Xamarin.iOS10\ICSharpCode.SharpZipLib.Portable.xml">
+      <PackagePath>ICSharpCode.SharpZipLib.Portable.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\..\..\lib\wp8\ARM\Lumia.Imaging.xml">
+      <PackagePath>Lumia.Imaging.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\lib\wp8\Lumia.Imaging.Managed.xml">
+      <PackagePath>Lumia.Imaging.Managed.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\LumiaImagingSDK.2.0.208\build\wp8\..\..\lib\wp8\ARM\Lumia.InteropServices.WindowsRuntime.xml">
+      <PackagePath>Lumia.InteropServices.WindowsRuntime.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.xml">
+      <PackagePath>Microsoft.Threading.Tasks.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.xml">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.xml">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.Phone.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.xml">
+      <PackagePath>Nokia.Graphics.Imaging.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml">
+      <PackagePath>Nokia.Graphics.Imaging.Managed.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml">
+      <PackagePath>Nokia.InteropServices.WindowsRuntime.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.xml">
+      <PackagePath>System.Net.Http.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
+      <PackagePath>System.Net.Http.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
+      <PackagePath>System.Net.Http.Primitives.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\analytics.xml">
+      <PackagePath>analytics.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\0.jpg">
+      <PackagePath>Assets\0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\whitebg.jpg">
+      <PackagePath>Assets\whitebg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\1.html">
+      <PackagePath>Assets\1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonBacknb.png">
+      <PackagePath>Assets\ButtonBacknb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonCameranb.png">
+      <PackagePath>Assets\ButtonCameranb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonDownloadnb.png">
+      <PackagePath>Assets\ButtonDownloadnb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonExcelFilternb.png">
+      <PackagePath>Assets\ButtonExcelFilternb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonGallerynb.png">
+      <PackagePath>Assets\ButtonGallerynb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonSharenb.png">
+      <PackagePath>Assets\ButtonSharenb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonWordFilternb.png">
+      <PackagePath>Assets\ButtonWordFilternb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\flash.png">
+      <PackagePath>Assets\flash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashOnOffbl.png">
+      <PackagePath>Assets\FlashOnOffbl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Intro1.png">
+      <PackagePath>Assets\Intro1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\introscreen2.png">
+      <PackagePath>Assets\introscreen2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\rowcolumn.png">
+      <PackagePath>Assets\rowcolumn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SwitchCameraButtonbl.png">
+      <PackagePath>Assets\SwitchCameraButtonbl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\FlipCycleTileMedium_NoBG.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium_NoBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\FlipCycleTileWide_NoBG.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileWide_NoBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\IconicTileMedium_NoBG.png">
+      <PackagePath>Assets\Tiles\IconicTileMedium_NoBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\IconicTileSmall.psd_NoBG.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.psd_NoBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\tutorialtwo.png">
+      <PackagePath>Assets\tutorialtwo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AdjustIcon.png">
+      <PackagePath>Assets\AdjustIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AllAlbumIcon.png">
+      <PackagePath>Assets\AllAlbumIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AllAlbumIconSelected.png">
+      <PackagePath>Assets\AllAlbumIconSelected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AllImageIcon.png">
+      <PackagePath>Assets\AllImageIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\AllImageIconSelected.png">
+      <PackagePath>Assets\AllImageIconSelected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\BackToEffectButton.png">
+      <PackagePath>Assets\BackToEffectButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\BlurIcon.png">
+      <PackagePath>Assets\BlurIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonBack.png">
+      <PackagePath>Assets\ButtonBack.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonCamera.png">
+      <PackagePath>Assets\ButtonCamera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonCamerabl.png">
+      <PackagePath>Assets\ButtonCamerabl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonDownload.png">
+      <PackagePath>Assets\ButtonDownload.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonExcelFiler.png">
+      <PackagePath>Assets\ButtonExcelFiler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonExcelFilterbl.png">
+      <PackagePath>Assets\ButtonExcelFilterbl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonGallery.png">
+      <PackagePath>Assets\ButtonGallery.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\buttongallerybl.png">
+      <PackagePath>Assets\buttongallerybl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonShare.png">
+      <PackagePath>Assets\ButtonShare.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonWordFilter.png">
+      <PackagePath>Assets\ButtonWordFilter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ButtonWordFilterbl.png">
+      <PackagePath>Assets\ButtonWordFilterbl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\CameraMenu.png">
+      <PackagePath>Assets\CameraMenu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Canvas.png">
+      <PackagePath>Assets\Canvas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\CheckIcon.png">
+      <PackagePath>Assets\CheckIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\CloseButton.png">
+      <PackagePath>Assets\CloseButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\column.PNG">
+      <PackagePath>Assets\column.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\CropIcon.png">
+      <PackagePath>Assets\CropIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\DownArrowButton.png">
+      <PackagePath>Assets\DownArrowButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\EffectButton.png">
+      <PackagePath>Assets\EffectButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\EffectIcon.png">
+      <PackagePath>Assets\EffectIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashAutoOff.png">
+      <PackagePath>Assets\FlashAutoOff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashAutoOn.png">
+      <PackagePath>Assets\FlashAutoOn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashButton.png">
+      <PackagePath>Assets\FlashButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashMenuBackground.png">
+      <PackagePath>Assets\FlashMenuBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashOffOff.png">
+      <PackagePath>Assets\FlashOffOff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashOffOn.png">
+      <PackagePath>Assets\FlashOffOn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashOnOff.png">
+      <PackagePath>Assets\FlashOnOff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FlashOnOn.png">
+      <PackagePath>Assets\FlashOnOn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Focus.png">
+      <PackagePath>Assets\Focus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\FrameIcon.png">
+      <PackagePath>Assets\FrameIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\fx_bar.PNG">
+      <PackagePath>Assets\fx_bar.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\fx_bar_and_column.PNG">
+      <PackagePath>Assets\fx_bar_and_column.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\HomeButton.png">
+      <PackagePath>Assets\HomeButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\HomeCameraButton.png">
+      <PackagePath>Assets\HomeCameraButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\HomeCover.png">
+      <PackagePath>Assets\HomeCover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\HorizontalSettingLine.png">
+      <PackagePath>Assets\HorizontalSettingLine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Icon.PNG">
+      <PackagePath>Assets\Icon.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\introscreen.png">
+      <PackagePath>Assets\introscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\LeftArrowButton.png">
+      <PackagePath>Assets\LeftArrowButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\MenuButton.png">
+      <PackagePath>Assets\MenuButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\RightArrowButton.png">
+      <PackagePath>Assets\RightArrowButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\RotateIcon.png">
+      <PackagePath>Assets\RotateIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\rows.png">
+      <PackagePath>Assets\rows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SettingButton.png">
+      <PackagePath>Assets\SettingButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SettingMenuBackground.png">
+      <PackagePath>Assets\SettingMenuBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ShadeIcon.png">
+      <PackagePath>Assets\ShadeIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ShutterButton.png">
+      <PackagePath>Assets\ShutterButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Splashscreen.PNG">
+      <PackagePath>Assets\Splashscreen.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\switch.png">
+      <PackagePath>Assets\switch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\SwitchCameraButtonDisabled.png">
+      <PackagePath>Assets\SwitchCameraButtonDisabled.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\ThumbnailSample.png">
+      <PackagePath>Assets\ThumbnailSample.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\TimerBackground.png">
+      <PackagePath>Assets\TimerBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\Transparent_tile.png">
+      <PackagePath>Assets\Transparent_tile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Content\ApplicationBar.Add.png">
+      <PackagePath>Content\ApplicationBar.Add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Content\ApplicationBar.Cancel.png">
+      <PackagePath>Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Content\ApplicationBar.Check.png">
+      <PackagePath>Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Content\ApplicationBar.Delete.png">
+      <PackagePath>Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Content\ApplicationBar.Select.png">
+      <PackagePath>Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\README_FIRST.txt">
+      <PackagePath>README_FIRST.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

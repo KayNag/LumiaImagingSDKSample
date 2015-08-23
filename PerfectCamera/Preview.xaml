@@ -1,0 +1,107 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PerfectCamera.Preview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFFFFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+
+            <Grid Height="743">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto" ></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="myimage" 
+                   Source="/Assets/whitebg.jpg" 
+                   Width="480" Stretch="UniformToFill" Height="600"
+                   Grid.Row="0" Grid.Column="0" 
+                   Grid.ColumnSpan="4"></Image>
+
+                <TextBlock x:Name="tb"  
+                           LineHeight="0"
+                           FontSize="3" 
+                           Width="480" 
+                           Text="" Height="640"
+                           Grid.Row="0" Grid.Column="0"
+                           Grid.ColumnSpan="4" ></TextBlock>
+
+
+                <Image x:Name="finimg" Width="480" Height="640" Grid.Row="0" VerticalAlignment="Top" Grid.Column="0" Grid.ColumnSpan="4"></Image>
+                <Image x:Name="testimg" Width="200" Height="200" Grid.Row="0" VerticalAlignment="Top" Grid.Column="0" Grid.ColumnSpan="4"></Image>
+                <!--<phone:WebBrowser x:Name="brow" HorizontalAlignment="Left" Source="/img/1.html" Background="Wheat" IsScriptEnabled="True" VerticalAlignment="Top" Grid.Column="0" Height="640" Width="480" >
+                </phone:WebBrowser>-->
+
+                <Button x:Name="btnbcak" Content ="File" Margin="22,41,114,-35" Height="64" Width="64" HorizontalAlignment="Center"  Grid.Row="1" Grid.Column="0" Click="btnbcak_Click" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Assets/ButtonBack.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="btnshare" Content ="Cam" Margin="130,39,22.5,-39" Height="70" Width="70" HorizontalAlignment="Center" Grid.Row="1"  Click="share_click" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="Assets/ButtonShare.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnExcel" Content ="Excel" Margin="0,0,0,0" Height="70" Width="70" HorizontalAlignment="Center"  Grid.Row="1" Visibility="Collapsed" Grid.Column="2" Click="btnExcel_Click" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Assets/ButtonExcelFilterbl.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnWord" Content ="Word" Margin="27.25,37,69.25,-37" Height="70" Width="70" HorizontalAlignment="Center" Grid.Row="1"  Grid.Column="1" Click="btnWord_Click" Grid.ColumnSpan="2" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Assets/ButtonWordFilterbl.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnDownload" Content ="File" Margin="65.25,38,39,-38" Height="70" Width="70" HorizontalAlignment="Center" Grid.Row="1"  Grid.Column="2" Click="download_click" Grid.ColumnSpan="2" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="Assets/ButtonDownload.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+
+            </Grid>
+
+
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

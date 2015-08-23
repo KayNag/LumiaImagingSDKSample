@@ -9,7 +9,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="False"
     Style="{StaticResource TransitionPageStyle}">
@@ -98,7 +98,7 @@
                     </EasingDoubleKeyFrame.EasingFunction>
                 </EasingDoubleKeyFrame>
             </DoubleAnimationUsingKeyFrames>-->
-            
+
             <!--rotation-->
             <DoubleAnimationUsingKeyFrames
                 Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(RotateTransform.Angle)"
@@ -113,7 +113,7 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </phone:PhoneApplicationPage.Resources>
-    
+
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -165,9 +165,14 @@
                 </DoubleAnimationUsingKeyFrames>
             </Storyboard>
         </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
         <Canvas x:Name="VideoCanvas" RenderTransformOrigin="0.5,0.5" Canvas.ZIndex="0"
-                Grid.Row="0">
+                Grid.Row="0" Margin="0,104,0,0" Grid.ColumnSpan="2">
+
             <Canvas.RenderTransform>
                 <CompositeTransform/>
             </Canvas.RenderTransform>
@@ -189,7 +194,8 @@
                    MouseLeftButtonDown="MouseInput_MouseLeftButtonDown"
                    MouseLeftButtonUp="MouseInput_MouseLeftButtonUp"
                    MouseMove="MouseInput_MouseMove"
-                   Fill="Transparent">
+                   Fill="Transparent" Margin="0,106,0,0" Grid.ColumnSpan="2"
+                   >
 
         </Rectangle>
 
@@ -197,11 +203,11 @@
                      VerticalAlignment="Center"
                      HorizontalAlignment="Stretch"
                      IsIndeterminate="True"
-                     Visibility="Collapsed"/>
-        
+                     Visibility="Collapsed" Grid.ColumnSpan="2" Margin="0,400"/>
+
         <Grid Grid.Row="0" Height="50"
               VerticalAlignment="Top"
-              Margin="0,10,0,0">
+              Margin="0,10,0,0" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
@@ -209,54 +215,21 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            
-            <Button x:Name="HomeButton"
-                    Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="30"
-                    Height="30"
-                    Grid.Column="0"
-                    HorizontalAlignment="Left"
-                    Margin="50,0,0,0"
-                    Click="HomeButton_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Assets/HomeButton.png"
-                                Stretch="Uniform"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="FlashButton"
-                    Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="30"
-                    Height="30"
-                    Grid.Column="2"
-                    Margin="0,0,50,0"
-                    HorizontalAlignment="Right"
-                    Click="FlashButton_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Assets/FlashButton.png"
-                                Stretch="Uniform"/>
-                </Button.Background>
-            </Button>
-            <Button x:Name="SwitchCameraButton"
-                    Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="40"
-                    Height="40"
-                    Grid.Column="3"
-                    Margin="0,0,50,0"
-                    HorizontalAlignment="Right"
-                    Click="SwitchCameraButton_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Assets/SwitchCameraButton.png"
-                                Stretch="Uniform"/>
-                </Button.Background>
-            </Button>
+            <Rectangle x:Name="top1" Fill="#217346" Height="22" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Margin="0,-10,-11,40" />
+            <Image x:Name="fbar" Width="482" Margin="-1,-9,-1,-31" Source="/Assets/fx_bar.PNG" HorizontalAlignment="Center" Grid.ColumnSpan="5" />
+            <Image x:Name="icol" Source="/Assets/column.png" Grid.Row="0" Width="491" Height="25" Grid.Column="0" Grid.ColumnSpan="5" HorizontalAlignment="Left" Margin="-3,56,-8,-31"/>
+            <Image x:Name="irow" Source="/Assets/rows.png" Height="725" HorizontalAlignment="Left" Width="22" Grid.Column="0"  VerticalAlignment="Top" Margin="-1,74,0,-749" Grid.ColumnSpan="2"/>
+
+
             <Button x:Name="MenuButton"
                     Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="30"
-                    Height="30"
+                    Width="50"
+                    Height="50"
                     Grid.Column="4"
-                    Margin="0,0,50,0"
+                    Margin="0,98,8,-98"
                     HorizontalAlignment="Right"
-                    Click="MenuButton_Click">
+                    Click="MenuButton_Click"
+                    Visibility="Collapsed">
                 <Button.Background>
                     <ImageBrush ImageSource="/Assets/MenuButton.png"
                                 Stretch="Uniform"/>
@@ -264,69 +237,82 @@
             </Button>
         </Grid>
 
-        <Grid Grid.Row="0" Height="100"
+        <Grid Grid.Row="0" Height="74"
               VerticalAlignment="Bottom"
-              Margin="0,0,0,20">
+              Margin="0,0,-2,0" Grid.ColumnSpan="2" Background="#dddddd" Opacity="0.4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0"
-                  Width="60"
-                  Height="60"
-                  HorizontalAlignment="Left"
-                  Margin="20,0,0,0"
-                  Background="White">
-                <Button x:Name="PreviewThumbnailButton"
+
+            </Grid.ColumnDefinitions>
+            <Button x:Name="FlashButton"
                     Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="54"
-                    Height="54"
-                    Grid.Column="0"
-                        Click="PreviewThumbnailButton_Click">
-                    <Button.Background>
-                        <ImageBrush ImageSource="/Assets/ThumbnailSample.png"
-                           Stretch="UniformToFill"/>
-                    </Button.Background>
-                </Button>
-            </Grid>
-            
+                    Width="60"
+                    Height="60"
+                    Margin="0,7,120,7"
+                    HorizontalAlignment="Right"
+                    Click="FlashButton_Click" Grid.Column="1" Grid.ColumnSpan="2">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/FlashOffOff.png"
+                                Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="SwitchCameraButton"
+                    Style="{StaticResource ButtonStyleNoBorder}"
+                    Width="60"
+                    Height="60"
+                    Grid.Column="2"
+                    Margin="0,-601,15,620"
+                    HorizontalAlignment="Right"
+                    Visibility="Collapsed"
+                    Click="SwitchCameraButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/switch.png"
+                                Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
 
             <Button x:Name="ShutterButton"
                     Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="90"
-                    Height="90"
+                    Width="80"
                     Grid.Column="1"
-                    HorizontalAlignment="Center"
-                    Margin="0,0,0,0"
-                    Click="ShutterButton_Click">
+                    HorizontalAlignment="Right"
+                    Margin="0,0,10,0"
+                    Click="ShutterButton_Click" RenderTransformOrigin="0.275,0.775">
                 <Button.Background>
                     <ImageBrush ImageSource="/Assets/ShutterButton.png"
                                 Stretch="Uniform"/>
                 </Button.Background>
             </Button>
+            <Grid Grid.Column="0"
+            	Width="60"
+            	Height="60"
+            	HorizontalAlignment="Left"
+            	Margin="120,7,0,7 "
+            	Background="Transparent">
+                <Button x:Name="PreviewThumbnailButton"
+            		Style="{StaticResource ButtonStyleNoBorder}"
+            		Width="60"
+            		Height="60"
+            		Grid.Column="0"
+            		Click="PreviewThumbnailButton_Click" RenderTransformOrigin="0.517,0.483" Margin="0,-2,0,2">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/ButtonGallerybl.png"
+            				Stretch="UniformToFill"/>
+                    </Button.Background>
+                </Button>
 
-            <Button x:Name="EffectButton"
-                    Style="{StaticResource ButtonStyleNoBorder}"
-                    Width="50"
-                    Height="50"
-                    Grid.Column="2"
-                    HorizontalAlignment="Right"
-                    Margin="0,0,20,0"
-                    Click="EffectButton_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Assets/EffectButton.png"
-                                Stretch="Uniform"/>
-                </Button.Background>
-            </Button>
+            </Grid>
+
         </Grid>
-        
+
         <Grid Grid.Row="0" Height="200"
               VerticalAlignment="Bottom"
               Background="Black"
               x:Name="EffectLayout"
-              Margin="0,0,0,0">
+              Margin="0,0,0,0" Grid.ColumnSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="50"/>
@@ -406,7 +392,7 @@
             </ScrollViewer>
 
             <Grid Grid.Row="1"
-                  Background="#3a3a3a">
+                  Background="#FFFFFF">
                 <Button Style="{StaticResource ButtonStyleNoBorder}"
                         Width="30"
                         x:Name="HideEffectLayoutButton"
@@ -418,18 +404,18 @@
                 </Button>
             </Grid>
         </Grid>
-        
+
         <TextBlock x:Name="EffectNameTextBlock"
                    Grid.Row="0"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    TextAlignment="Center"
-                   Text="Normal"
-                   FontSize="30"
+                   Text="Swipe right/left to change cell size"
+                   FontSize="20"
                    FontWeight="Light"
-                   Opacity="0">
+                   Opacity="0" Grid.ColumnSpan="2" Margin="27,380,14,315" Height="105" Width="439">
         </TextBlock>
-        
+
         <Image Source="/Assets/Focus.png"
                Stretch="Uniform"
                Grid.Row="0"
@@ -449,5 +435,8 @@
             </Image.RenderTransform>
         </Image>
     </Grid>
+
+
+
 
 </phone:PhoneApplicationPage>

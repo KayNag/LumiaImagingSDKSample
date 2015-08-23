@@ -61,12 +61,17 @@ namespace PerfectCamera
 
         private const CameraRatio DefaultCameraRatio = CameraRatio.Ratio_16x9;
         private const CameraSensorLocation DefaultSensorLocation = CameraSensorLocation.Back;
-        private const FlashState DefaultFlashState = FlashState.Auto;
+        private const FlashState DefaultFlashState = FlashState.Off;
 
         public CameraRatio CameraRatio { get; set; }
         public CameraSensorLocation SensorLocation { get; set; }
         public FlashState FlashState { get; set; }
 
         public PerfectCameraType CameraType { get; set; }
+        public ScreenFrom screenfrom { get; set; }
+        public PixelSize Pixels { get; set; }
+        public FilterUsed Filterenum { get; set; }
+        public CaptureReturn Capturescreen { get; set; }
+        public LoadReturn Loadscreen { get; set; }
     }
 }

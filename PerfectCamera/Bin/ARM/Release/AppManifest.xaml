@@ -1,0 +1,31 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="PerfectCamera" EntryPointType="PerfectCamera.App" RuntimeVersion="6.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="PerfectCamera" Source="PerfectCamera.dll" />
+    <AssemblyPart x:Name="FiftyNine.Ag.OpenXML.Common" Source="FiftyNine.Ag.OpenXML.Common.dll" />
+    <AssemblyPart x:Name="FiftyNine.Ag.OpenXML.Excel" Source="FiftyNine.Ag.OpenXML.Excel.dll" />
+    <AssemblyPart x:Name="Google.Apis.Auth" Source="Google.Apis.Auth.dll" />
+    <AssemblyPart x:Name="Google.Apis.Auth.PlatformServices" Source="Google.Apis.Auth.PlatformServices.dll" />
+    <AssemblyPart x:Name="Google.Apis.Core" Source="Google.Apis.Core.dll" />
+    <AssemblyPart x:Name="Google.Apis" Source="Google.Apis.dll" />
+    <AssemblyPart x:Name="Google.Apis.PlatformServices" Source="Google.Apis.PlatformServices.dll" />
+    <AssemblyPart x:Name="GoogleAnalytics.Core" Source="GoogleAnalytics.Core.dll" />
+    <AssemblyPart x:Name="GoogleAnalytics" Source="GoogleAnalytics.dll" />
+    <AssemblyPart x:Name="ICSharpCode.SharpZipLib.Portable" Source="ICSharpCode.SharpZipLib.Portable.dll" />
+    <AssemblyPart x:Name="Lumia.Imaging.Managed" Source="Lumia.Imaging.Managed.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Microsoft.Threading.Tasks" Source="Microsoft.Threading.Tasks.dll" />
+    <AssemblyPart x:Name="Microsoft.Threading.Tasks.Extensions" Source="Microsoft.Threading.Tasks.Extensions.dll" />
+    <AssemblyPart x:Name="Microsoft.Threading.Tasks.Extensions.Phone" Source="Microsoft.Threading.Tasks.Extensions.Phone.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="NISDKExtendedEffects" Source="NISDKExtendedEffects.dll" />
+    <AssemblyPart x:Name="Nokia.Graphics.Imaging.Managed" Source="Nokia.Graphics.Imaging.Managed.dll" />
+    <AssemblyPart x:Name="System.Net.Http" Source="System.Net.Http.dll" />
+    <AssemblyPart x:Name="System.Net.Http.Extensions" Source="System.Net.Http.Extensions.dll" />
+    <AssemblyPart x:Name="System.Net.Http.Primitives" Source="System.Net.Http.Primitives.dll" />
+    <AssemblyPart x:Name="SharpZipLib" Source="SharpZipLib.dll" />
+    <AssemblyPart x:Name="Lumia.Imaging" Source="Lumia.Imaging.dll" />
+    <AssemblyPart x:Name="Lumia.InteropServices.WindowsRuntime" Source="Lumia.InteropServices.WindowsRuntime.dll" />
+    <AssemblyPart x:Name="Nokia.Graphics.Imaging" Source="Nokia.Graphics.Imaging.dll" />
+    <AssemblyPart x:Name="Nokia.InteropServices.WindowsRuntime" Source="Nokia.InteropServices.WindowsRuntime.dll" />
+  </Deployment.Parts>
+</Deployment>

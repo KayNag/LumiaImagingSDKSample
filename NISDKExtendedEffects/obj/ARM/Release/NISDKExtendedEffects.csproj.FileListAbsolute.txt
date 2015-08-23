@@ -1,0 +1,65 @@
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\GitHub\Cam\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\NISDKExtendedEffects\obj\ARM\Release\NISDKExtendedEffects.pdb

@@ -22,7 +22,10 @@ using Microsoft.Xna.Framework.Media;
 using System.Diagnostics;
 using Microsoft.Phone.Reactive;
 using System.Windows.Threading;
-using PerfectCamera.Filters;
+
+using System.IO.IsolatedStorage;
+using Windows.Storage;
+using Windows.Storage.Streams;
 
 namespace PerfectCamera
 {
@@ -37,8 +40,37 @@ namespace PerfectCamera
         Selfie,
         EasyCam
     }
+    public enum ScreenFrom
+    {
+        camscreen,
+        pick,
+        captured
+    }
 
-    public class ApplyEffectButton: Button
+    public enum PixelSize
+    {
+        ten,
+        fifteen,
+        thirty
+    }
+
+    public enum FilterUsed
+    {
+        Excel,
+        Word
+    }
+    public enum CaptureReturn
+    {
+        yes,
+        no
+    }
+    public enum LoadReturn
+    {
+        yes,
+        no
+    }
+
+    public class ApplyEffectButton : Button
     {
         public string EffectName
         {
@@ -76,33 +108,44 @@ namespace PerfectCamera
 
         private List<Popup> _openPopupList = new List<Popup>();
 
-        private const String FileNamePrefix = "PerfectCamera_";
+        private const String FileNamePrefix = "MsExcelArt";
 
         private SettingMenu _settingMenu = new SettingMenu();
         private FlashMenu _flashSettingMenu = new FlashMenu();
 
         private readonly DispatcherTimer _focusDisplayTimer = new DispatcherTimer();
-        private Semaphore _focusSemaphore = new Semaphore(1,1);
+        private Semaphore _focusSemaphore = new Semaphore(1, 1);
         private Windows.Foundation.Size _focusRegionSize = new Windows.Foundation.Size(80, 80);
         private bool _manuallyFocused = false;
-
+        bool istglchecked = true;
         public CameraPage()
         {
             InitializeComponent();
+            EffectNameTextBlock.Text = "Swipe right and left to change cell sizes";
+
+            if (Microsoft.Devices.PhotoCamera.IsCameraTypeSupported(CameraType.FrontFacing))
+            {
+
+                SwitchCameraButton.Visibility = Visibility.Visible;
+            }
+
+            GoogleAnalytics.EasyTracker.GetTracker().SendView("Live Camera view");
 
             if (PerfectCamera.DataContext.Instance.CameraType == PerfectCameraType.Selfie)
             {
-                PerfectCamera.DataContext.Instance.SensorLocation = CameraSensorLocation.Front;
+                PerfectCamera.DataContext.Instance.SensorLocation = CameraSensorLocation.Back;
+
+
             }
             else if (PerfectCamera.DataContext.Instance.CameraType == PerfectCameraType.EasyCam)
             {
-                PerfectCamera.DataContext.Instance.SensorLocation = CameraSensorLocation.Back;
+                PerfectCamera.DataContext.Instance.SensorLocation = CameraSensorLocation.Front;
 
-                EffectButton.Visibility = System.Windows.Visibility.Collapsed;
             }
 
             if (!Microsoft.Devices.PhotoCamera.IsCameraTypeSupported(CameraType.FrontFacing))
             {
+
                 SwitchCameraButton.IsHitTestVisible = false;
                 /*ImageBrush brush = new ImageBrush()
                 {
@@ -115,7 +158,7 @@ namespace PerfectCamera
                 //force using back camera
                 PerfectCamera.DataContext.Instance.SensorLocation = CameraSensorLocation.Back;
             }
-
+            EffectNameFadeIn.Begin();
             UpdateFlashIcon();
 
             _settingMenu.RatioChanged = (ratio) =>
@@ -144,7 +187,11 @@ namespace PerfectCamera
 
             _focusDisplayTimer.Interval = TimeSpan.FromSeconds(1);
             _focusDisplayTimer.Tick += _focusDisplayTimer_Tick;
+
+
         }
+
+
 
         private void UpdateFlashIcon()
         {
@@ -152,11 +199,11 @@ namespace PerfectCamera
             {
                 Stretch = Stretch.Uniform
             };
-            switch(PerfectCamera.DataContext.Instance.FlashState)
+            switch (PerfectCamera.DataContext.Instance.FlashState)
             {
                 case FlashState.Auto:
                     {
-                        brush.ImageSource = new BitmapImage(new Uri("/Assets/FlashAutoOff.png", UriKind.Relative));
+                        brush.ImageSource = new BitmapImage(new Uri("/Assets/flashAutoOff.png", UriKind.Relative));
                         break;
                     }
                 case FlashState.On:
@@ -175,6 +222,7 @@ namespace PerfectCamera
 
         private async Task ResetCamera()
         {
+
             Uninitialize();
 
             if (Camera != null)
@@ -309,7 +357,7 @@ namespace PerfectCamera
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
         {
             bool cancel = false;
-            for (int i = _openPopupList.Count - 1; i >= 0; i-- )
+            for (int i = _openPopupList.Count - 1; i >= 0; i--)
             {
                 Popup p = _openPopupList[i];
                 if (p.IsOpen)
@@ -331,9 +379,11 @@ namespace PerfectCamera
             }
             else
             {
-                base.OnBackKeyPress(e);
+
+                Application.Current.Terminate();
             }
         }
+
 
         /// <summary>
         /// Makes adjustments to UI depending on device orientation. Ensures 
@@ -401,7 +451,7 @@ namespace PerfectCamera
         private void SetScreenButtonsEnabled(bool enabled)
         {
             ShutterButton.IsHitTestVisible = enabled;
-            EffectButton.IsHitTestVisible = enabled;
+
             FlashButton.IsHitTestVisible = enabled;
             MenuButton.IsHitTestVisible = enabled;
         }
@@ -494,7 +544,7 @@ namespace PerfectCamera
                 }
             }
             //
-            
+
 
             PhotoCaptureDevice device = await PhotoCaptureDevice.OpenAsync(sensorLocation, captureResolution);
 
@@ -507,7 +557,7 @@ namespace PerfectCamera
             {
                 _cameraEffect = new Effects()
                 {
-                    PhotoCaptureDevice = Camera
+                    m_PhotoCaptureDevice = Camera
                 };
 
                 _cameraStreamSource = new CameraStreamSource(_cameraEffect, previewResolution);
@@ -561,7 +611,7 @@ namespace PerfectCamera
             {
                 _mediaElement.Pause();
             }
-            
+
             if (!_capturing)
             {
                 _capturing = true;
@@ -633,6 +683,36 @@ namespace PerfectCamera
                     {
                         library.SavePictureToCameraRoll(FileNamePrefix
                                 + DateTime.Now.ToString() + ".jpg", capturedStream);
+
+                        String file = "Mscam.docx";
+                        IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication();
+                        var myfilestream2 = new IsolatedStorageFileStream(file, FileMode.OpenOrCreate, IsolatedStorageFile.GetUserStoreForApplication());
+
+                        using (var writer2 = new StreamWriter(myfilestream2))
+                        {
+                            writer2.Write(capturedStream);
+                        }
+                        using (var isolatedstorage = IsolatedStorageFile.GetUserStoreForApplication())
+                        {
+                            if (isolatedstorage.FileExists("Mscam.docx"))
+                            {
+                                isolatedstorage.DeleteFile("Mscam.docx");
+                            }
+
+                        }
+                        using (var myfilestream = new IsolatedStorageFileStream("Mscam.docx", FileMode.Create, IsolatedStorageFile.GetUserStoreForApplication()))
+                        {
+                            using (var writer = new StreamWriter(myfilestream))
+                            {
+                                writer.Write("MSCam");
+                            }
+
+                        }
+
+
+
+
+
                     }
                 }
             }
@@ -663,11 +743,7 @@ namespace PerfectCamera
             await Capture();
         }
 
-        private void EffectButton_Click(object sender, RoutedEventArgs e)
-        {
-            EffectButton.IsHitTestVisible = false;
-            EffectLayoutSlideIn.Begin();
-        }
+
 
         private void HideEffectLayoutButton_Click(object sender, RoutedEventArgs e)
         {
@@ -677,7 +753,7 @@ namespace PerfectCamera
 
         private void EffectLayoutSlideOut_Completed(object sender, EventArgs e)
         {
-            EffectButton.IsHitTestVisible = true;
+
         }
 
         private void EffectLayoutSlideIn_Completed(object sender, EventArgs e)
@@ -685,28 +761,26 @@ namespace PerfectCamera
             HideEffectLayoutButton.IsHitTestVisible = true;
         }
 
-        private void HomeButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (NavigationService.CanGoBack)
-            {
-                NavigationService.GoBack();
-            }
-        }
 
         private void FlashButton_Click(object sender, RoutedEventArgs e)
         {
-            if (Camera != null && Camera.SensorLocation == CameraSensorLocation.Back)
+
+            if (Microsoft.Devices.FlashMode.Off != null)
             {
-                var p = new Popup()
+                if (Camera != null && Camera.SensorLocation == CameraSensorLocation.Back)
                 {
-                    Child = _flashSettingMenu
-                };
+                    var p = new Popup()
+                    {
+                        Child = _flashSettingMenu
+                    };
 
-                _flashSettingMenu.SetCurrentFlashMode(PerfectCamera.DataContext.Instance.FlashState);
+                    _flashSettingMenu.SetCurrentFlashMode(PerfectCamera.DataContext.Instance.FlashState);
 
-                _openPopupList.Add(p);
+                    _openPopupList.Add(p);
 
-                p.IsOpen = true;
+                    p.IsOpen = true;
+                }
+                GoogleAnalytics.EasyTracker.GetTracker().SendEvent("Flash Button click", "livecamera", null, 0);
             }
         }
 
@@ -726,7 +800,9 @@ namespace PerfectCamera
 
                 var task = ResetCamera();
             }
+            GoogleAnalytics.EasyTracker.GetTracker().SendEvent("Swtich camera click", "livecamera", null, 0);
         }
+
 
         private void MenuButton_Click(object sender, RoutedEventArgs e)
         {
@@ -742,18 +818,40 @@ namespace PerfectCamera
             p.IsOpen = true;
         }
 
+
         private async void ShutterButton_Click(object sender, RoutedEventArgs e)
         {
-            if (!_manuallyFocused)
+            GoogleAnalytics.EasyTracker.GetTracker().SendEvent("Shutter click", "livecamera", null, 0);
+            if (Camera != null)
             {
-                await AutoFocus();
-            }
-            await Capture();
-        }
 
+
+                if (!_manuallyFocused)
+                {
+                    await AutoFocus();
+                }
+                await Capture();
+                if (istglchecked)
+                {
+                    PerfectCamera.DataContext.Instance.Filterenum = FilterUsed.Excel;
+                }
+                else
+                {
+                    PerfectCamera.DataContext.Instance.Filterenum = FilterUsed.Word;
+                }
+
+                NavigationService.Navigate(new Uri("/Download.xaml", UriKind.Relative));
+            }
+        }
         private void PreviewThumbnailButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/PreviewPage.xaml", UriKind.Relative));
+            if (Camera != null)
+            {
+                GoogleAnalytics.EasyTracker.GetTracker().SendEvent("Open File click", "livecamera", null, 0);
+                NavigationService.Navigate(new Uri("/test.xaml", UriKind.Relative));
+                //  NavigationService.Navigate(new Uri("/PreviewPage.xaml", UriKind.Relative));
+            }
+
         }
 
         private void EffectNameFadeIn_Completed(object sender, EventArgs e)
@@ -763,51 +861,57 @@ namespace PerfectCamera
 
         //mouse event handler
         private bool _touchBegan = false;
-        private Point _beginTouchLocaltion = new Point(0.0,0.0);
+        private Point _beginTouchLocaltion = new Point(0.0, 0.0);
 
         private void MouseInput_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            _touchBegan = true;
+            if (Camera != null)
+            {
+                _touchBegan = true;
 
-            _beginTouchLocaltion = e.GetPosition(this);
+                _beginTouchLocaltion = e.GetPosition(this);
+            }
         }
 
         private void MouseInput_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             if (_touchBegan)
             {
-                _touchBegan = false;
-                Point pt = e.GetPosition(this);
-                if (PerfectCamera.DataContext.Instance.CameraType == PerfectCameraType.Selfie)
+                if (Camera != null)
                 {
-                    if (pt.X < _beginTouchLocaltion.X - 20.0)
+                    _touchBegan = false;
+                    Point pt = e.GetPosition(this);
+                    if (PerfectCamera.DataContext.Instance.CameraType == PerfectCameraType.Selfie)
                     {
-                        //next effect
-                        _cameraEffect.NextEffect();
-                        EffectNameTextBlock.Text = _cameraEffect.EffectName;
-                        EffectNameFadeIn.Begin();
+                        if (pt.X < _beginTouchLocaltion.X - 20.0)
+                        {
+                            //next effect
+                            _cameraEffect.NextEffect();
+                            EffectNameTextBlock.Text = _cameraEffect.EffectName;
+                            EffectNameFadeIn.Begin();
+                        }
+                        else if (pt.X > _beginTouchLocaltion.X + 20.0)
+                        {
+                            //previous effect
+                            _cameraEffect.PreviousEffect();
+                            EffectNameTextBlock.Text = _cameraEffect.EffectName;
+                            EffectNameFadeIn.Begin();
+                        }
                     }
-                    else if (pt.X > _beginTouchLocaltion.X + 20.0)
-                    {
-                        //previous effect
-                        _cameraEffect.PreviousEffect();
-                        EffectNameTextBlock.Text = _cameraEffect.EffectName;
-                        EffectNameFadeIn.Begin();
-                    }
-                }
 
-                if (pt.X > _beginTouchLocaltion.X - 20 && pt.X < _beginTouchLocaltion.X + 20 &&
-                    pt.Y > _beginTouchLocaltion.Y - 20 && pt.Y < _beginTouchLocaltion.Y + 20)
-                {
-                    //focus
-                    var task = FocusAtPoint(pt);
+                    if (pt.X > _beginTouchLocaltion.X - 20 && pt.X < _beginTouchLocaltion.X + 20 &&
+                        pt.Y > _beginTouchLocaltion.Y - 20 && pt.Y < _beginTouchLocaltion.Y + 20)
+                    {
+                        //focus
+                        var task = FocusAtPoint(pt);
+                    }
                 }
             }
         }
 
         private void MouseInput_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
         {
-            
+
         }
 
         private void InitEffectPanel()
@@ -815,44 +919,48 @@ namespace PerfectCamera
             if (_cameraEffect != null && PerfectCamera.DataContext.Instance.CameraType == PerfectCameraType.Selfie)
             {
                 EffectStackPanel.Children.Clear();
-                for (int i = 0; i < _cameraEffect.EffectGroup.Count; i++)
+                int i = 0;
+
+                Button btn = new Button()
                 {
-                    AbstractFilter filter = _cameraEffect.EffectGroup[i];
-                    Button btn = new Button()
+                    Style = (Style)Application.Current.Resources["ButtonStyleNoBorder"],
+                    Margin = new Thickness(10, 0, 0, 0),
+                    Height = 130,
+                    Width = 97,
+                    Background = new ImageBrush()
                     {
-                        Style = (Style)Application.Current.Resources["ButtonStyleNoBorder"],
-                        Margin = new Thickness(10, 0, 0, 0),
-                        Height = 130,
-                        Width = 97,
-                        Background = new ImageBrush()
-                        {
-                            ImageSource = new BitmapImage(filter.ThumbnailUri),
-                            Stretch = Stretch.Uniform
-                        },
-                        Tag = i,
-                        ContentTemplate = (DataTemplate)Application.Current.Resources["ButtonContentWrap"],
-                        Content = filter.Name,
-                        FontSize = 20,
-                        FontWeight = FontWeights.Light
-                    };
-                    EffectStackPanel.Children.Add(btn);
 
-                    btn.Click += FilterButton_Click;
-                }
+                        Stretch = Stretch.Uniform
+                    },
+                    Tag = i,
+                    ContentTemplate = (DataTemplate)Application.Current.Resources["ButtonContentWrap"],
 
-                EffectStackPanel.Width = _cameraEffect.EffectGroup.Count * 97 + (_cameraEffect.EffectGroup.Count + 1) * 10;
+                    FontSize = 20,
+                    FontWeight = FontWeights.Light
+                };
+                EffectStackPanel.Children.Add(btn);
+
+                btn.Click += FilterButton_Click;
+
+
+
             }
         }
 
         void FilterButton_Click(object sender, RoutedEventArgs e)
         {
-            var clickedBtn = sender as Button;
-            _selectedEffect = (int)clickedBtn.Tag;
+            if (Camera != null)
+            {
 
-            _cameraEffect.SetSelectedIndex(_selectedEffect);
 
-            EffectNameTextBlock.Text = (string)clickedBtn.Content;
-            EffectNameFadeIn.Begin();
+                var clickedBtn = sender as Button;
+                _selectedEffect = (int)clickedBtn.Tag;
+
+
+
+                EffectNameTextBlock.Text = (string)clickedBtn.Content;
+                EffectNameFadeIn.Begin();
+            }
         }
 
         private void RotateFocusImage_Completed(object sender, EventArgs e)

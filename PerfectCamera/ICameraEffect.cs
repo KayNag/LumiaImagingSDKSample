@@ -32,7 +32,7 @@ namespace PerfectCamera
         /// <summary>
         /// The camera device, the effect will poll the preview frames from it.
         /// </summary>
-        PhotoCaptureDevice PhotoCaptureDevice { set; }
+        PhotoCaptureDevice m_PhotoCaptureDevice { set; }
 
         /// <summary>
         /// The effect name.

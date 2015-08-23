@@ -16,7 +16,7 @@
         <Grid x:Name="ContentLayout" Grid.Row="0"
               HorizontalAlignment="Right"
               VerticalAlignment="Top"
-              Margin="0,50,220,0"
+              Margin="0,531,25,-228"
               Width="121"
               Height="177">
             <Grid.Background>

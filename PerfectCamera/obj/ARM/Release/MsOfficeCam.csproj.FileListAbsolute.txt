@@ -1,0 +1,468 @@
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\App.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\AboutPage.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\CameraPage.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Download.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\FlashMenu.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\SettingMenu.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Splash.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Preview.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\test.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorialsecond.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorial.g.cs
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.g.resources
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.Resources.AppResources.resources
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csproj.GenerateResource.Cache
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\ApplicationIcon.png
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\resources.pri
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppxManifest.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\MsOfficeCam.build.appxrecipe
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Properties\WMAppManifest.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppManifest.xaml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera_Release_ARM.xap
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\ProjectArchitectures.txt
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MDILProjectFiles.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\XapCacheFile.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Zlib.Portable.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Zlib.Portable.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\en-US\System.Net.Http.SR.resw
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http.pri
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Excel.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\SharpZipLib.dll
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Common.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Excel.pdb
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\layout.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\layout.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\Resources.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\Resources.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\pri.resfiles
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\pri.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\priconfig.xml
+C:\Users\cynos_000\Documents\newsample\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\priconfig.xml.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\ApplicationIcon.png
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\resources.pri
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppxManifest.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\MsOfficeCam.build.appxrecipe
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Properties\WMAppManifest.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppManifest.xaml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera_Release_ARM.xap
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Excel.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\App.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\AboutPage.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\CameraPage.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Download.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\FlashMenu.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\SettingMenu.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Splash.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Preview.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\test.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorialsecond.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorial.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.g.resources
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.Resources.AppResources.resources
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csproj.GenerateResource.Cache
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\en-US\System.Net.Http.SR.resw
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http.pri
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\ProjectArchitectures.txt
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MDILProjectFiles.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\XapCacheFile.xml
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\SharpZipLib.dll
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\ApplicationIcon.png
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\resources.pri
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppxManifest.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\MsOfficeCam.build.appxrecipe
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Properties\WMAppManifest.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\AppManifest.xaml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\PerfectCamera_Release_ARM.xap
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Common.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\FiftyNine.Ag.OpenXML.Excel.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.winmd
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\SharpZipLib.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Auth.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.Core.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Google.Apis.PlatformServices.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\GoogleAnalytics.Core.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ICSharpCode.SharpZipLib.Portable.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Lumia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Newtonsoft.Json.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\NISDKExtendedEffects.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.Graphics.Imaging.Managed.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\Nokia.InteropServices.WindowsRuntime.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Extensions.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\System.Net.Http.Primitives.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\Bin\ARM\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csprojResolveAssemblyReference.cache
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\App.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\AboutPage.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\CameraPage.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Download.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\FlashMenu.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\SettingMenu.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Splash.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Preview.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\test.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorialsecond.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\Tutorial.g.cs
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.g.resources
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.Resources.AppResources.resources
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MsOfficeCam.csproj.GenerateResource.Cache
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.dll
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\PerfectCamera.pdb
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\en-US\System.Net.Http.SR.resw
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http.pri
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\System.Net.Http\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\priconfig.xml.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\layout.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\resources.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\pri.resfiles.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\qualifiers.txt.intermediate
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\ProjectArchitectures.txt
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\MDILProjectFiles.xml
+C:\Users\cynos_000\Documents\newsample - backup before git -2nd\LumiaImagingSDKSample\PerfectCamera\obj\ARM\Release\XapCacheFile.xml

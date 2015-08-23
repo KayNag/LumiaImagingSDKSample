@@ -19,27 +19,19 @@
  * THE SOFTWARE.
  */
 
-using Lumia.Imaging;
-using Lumia.Imaging.Adjustments;
-using Lumia.Imaging.Artistic;
-using Lumia.Imaging.Custom;
-using PerfectCamera.Resources;
+
+using NISDKExtendedEffects.ImageEffects;
+using Nokia.Graphics.Imaging;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Phone.Media.Capture;
 using Windows.Storage.Streams;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Lumia.Imaging.Compositing;
-using Lumia.Imaging.Transforms;
-using PerfectCamera.Filters;
-using PerfectCamera.Filters.MagicSkin;
-using PerfectCamera.Filters.Funny;
-using PerfectCamera.Filters.Lomo;
-
 namespace PerfectCamera
 {
     public class EffectIndex
@@ -62,214 +54,221 @@ namespace PerfectCamera
 
     public class Effects : ICameraEffect
     {
-        private PhotoCaptureDevice _photoCaptureDevice = null;
-        private CameraPreviewImageSource _cameraPreviewImageSource = null;
-        private int _effectIndex = 0;
-        private Semaphore _semaphore = new Semaphore(1, 1);
+        private PhotoCaptureDevice PhotoCaptureDevice = null;
+        private CameraPreviewImageSource m_StreamImageSource = null;
+        private FilterEffect m_FilterEffect = null;
+        private CustomEffectBase m_CustomEffect = null;
+        private int m_EffectIndex = 1;
+        private Semaphore m_Semaphore = new Semaphore(1, 1);
+        private Size m_FrameSize;
 
-        public EffectGroup<AbstractFilter> EffectGroup = null;
+        public String EffectName { get; private set; }
 
-        public Effects()
-        {
-            InitializeEffectList();
-        }
-
-        public String EffectName
-        {
-            get
-            {
-                if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count)
-                {
-                    AbstractFilter filter = EffectGroup[_effectIndex];
-                    return filter.Name;
-                }
-
-                return "";
-            }
-        }
-
-        public PhotoCaptureDevice PhotoCaptureDevice
+        public PhotoCaptureDevice m_PhotoCaptureDevice
         {
             set
             {
-                if (_photoCaptureDevice != value)
+                if (PhotoCaptureDevice != value)
                 {
-                    while (!_semaphore.WaitOne(100));
+                    while (!m_Semaphore.WaitOne(100)) ;
 
-                    _photoCaptureDevice = value;
+                    PhotoCaptureDevice = value;
 
                     Initialize();
 
-                    _semaphore.Release();
+                    m_Semaphore.Release();
                 }
             }
         }
 
-        public CameraPreviewImageSource CameraPreviewImageSource
-        {
-            set
-            {
-                if (_cameraPreviewImageSource != value)
-                {
-                    while (!_semaphore.WaitOne(100)) ;
-
-                    _cameraPreviewImageSource = value;
-
-                    _semaphore.Release();
-                }
-            }
-        }
+        public string DebugTag { get; private set; }
 
         ~Effects()
         {
-            while (!_semaphore.WaitOne(100));
-
-            if (_cameraPreviewImageSource != null)
-            {
-                _cameraPreviewImageSource.Dispose();
-                _cameraPreviewImageSource = null;
-            }
+            while (!m_Semaphore.WaitOne(100)) ;
 
             Uninitialize();
 
-            _semaphore.Release();
+            m_Semaphore.Release();
         }
 
         public async Task GetNewFrameAndApplyEffect(IBuffer frameBuffer, Size frameSize)
         {
-            if (_semaphore.WaitOne(500))
+            if (m_Semaphore.WaitOne(500))
             {
-                _cameraPreviewImageSource.InvalidateLoad();
+                m_FrameSize = frameSize;
 
                 var scanlineByteSize = (uint)frameSize.Width * 4; // 4 bytes per pixel in BGRA888 mode
                 var bitmap = new Bitmap(frameSize, ColorMode.Bgra8888, scanlineByteSize, frameBuffer);
 
-                if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count)
+                if (m_FilterEffect != null)
                 {
-                    AbstractFilter filter = EffectGroup[_effectIndex];
-                    await filter.RenderPreview(bitmap);
+                    var renderer = new BitmapRenderer(m_FilterEffect, bitmap);
+                    await renderer.RenderAsync();
+                }
+                else if (m_CustomEffect != null)
+                {
+                    var renderer = new BitmapRenderer(m_CustomEffect, bitmap);
+                    await renderer.RenderAsync();
                 }
                 else
                 {
-                    var renderer = new BitmapRenderer(_cameraPreviewImageSource, bitmap);
+                    var renderer = new BitmapRenderer(m_StreamImageSource, bitmap);
                     await renderer.RenderAsync();
                 }
 
-                _semaphore.Release();
+                m_Semaphore.Release();
             }
         }
 
         public void NextEffect()
         {
-            if (_semaphore.WaitOne(500))
+            if (m_Semaphore.WaitOne(500))
             {
                 Uninitialize();
 
-                if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count)
+                m_EffectIndex++;
+
+                if (m_EffectIndex >= m_EffectCount)
                 {
-                    _effectIndex++;
-                    if (_effectIndex >= EffectGroup.Count)
-                    {
-                        _effectIndex = 0;
-                    }
+                    m_EffectIndex = 0;
                 }
 
                 Initialize();
 
-                _semaphore.Release();
+                m_Semaphore.Release();
             }
         }
 
         public void PreviousEffect()
         {
-            if (_semaphore.WaitOne(500))
+            if (m_Semaphore.WaitOne(500))
             {
                 Uninitialize();
 
-                if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count)
+                m_EffectIndex--;
+
+                if (m_EffectIndex < 0)
                 {
-                    _effectIndex--;
-                    if (_effectIndex < 0)
-                    {
-                        _effectIndex = EffectGroup.Count-1;
-                    }
+                    m_EffectIndex = m_EffectCount - 1;
                 }
 
                 Initialize();
 
-                _semaphore.Release();
-            }
-        }
-
-        public void SetSelectedIndex(int idx)
-        {
-            if (_semaphore.WaitOne(500))
-            {
-                Uninitialize();
-
-                _effectIndex = idx;
-
-                Initialize();
-
-                _semaphore.Release();
+                m_Semaphore.Release();
             }
         }
 
         private void Uninitialize()
         {
-            /*if (_cameraPreviewImageSource != null)
+            if (m_StreamImageSource != null)
             {
-                _cameraPreviewImageSource.Dispose();
-                _cameraPreviewImageSource = null;
-            }*/
+                m_StreamImageSource.Dispose();
+                m_StreamImageSource = null;
+            }
+
+            if (m_FilterEffect != null)
+            {
+                m_FilterEffect.Dispose();
+                m_FilterEffect = null;
+            }
+
+            if (m_CustomEffect != null)
+            {
+                m_CustomEffect.Dispose();
+                m_CustomEffect = null;
+            }
         }
 
         private void Initialize()
         {
-            if (_cameraPreviewImageSource == null && _photoCaptureDevice != null)
+           
+            var filters = new List<IFilter>();
+            var nameFormat = "{0}/" + m_EffectCount + " - {1}";
+
+            App.AssignedColorCache = new Dictionary<uint, uint>(); // Reset
+            m_StreamImageSource = new CameraPreviewImageSource(PhotoCaptureDevice);
+
+            switch (m_EffectIndex)
             {
-                _cameraPreviewImageSource = new CameraPreviewImageSource(_photoCaptureDevice);
+
+                case 0:
+                    {
+                        EffectName =  "Cell size : 10";
+                        PerfectCamera.DataContext.Instance.Pixels = PixelSize.ten;
+                        m_CustomEffect = new PixelationEffect(m_StreamImageSource,10);
+                    }
+                    break;
+
+                case 1:
+                    {
+                        EffectName = "Cell size : 15";
+                        PerfectCamera.DataContext.Instance.Pixels = PixelSize.fifteen;
+                        m_CustomEffect = new PixelationEffect(m_StreamImageSource,15);
+                    }
+                    break;
+
+                case 2:
+                    {
+                        EffectName = "Cell size : 35";
+                        PerfectCamera.DataContext.Instance.Pixels = PixelSize.thirty;
+                        m_CustomEffect = new PixelationEffect(m_StreamImageSource,30);
+                    }
+                    break;
+
+               
             }
-            
-            if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count && _cameraPreviewImageSource != null)
-            {
-                AbstractFilter filter = EffectGroup[_effectIndex];
-                filter.RealtimeEffectSource = _cameraPreviewImageSource;
-            }
+
+           
         }
+
+        private int m_EffectCount = 3;  // Remember to increment by one with each case added above.
 
         public async Task<Stream> ApplyEffect(MemoryStream inputStream)
         {
-            if (_effectIndex >= 0 && _effectIndex < EffectGroup.Count)
+
+            IBuffer outputBuffer = null;
+
+            if (m_Semaphore.WaitOne(500))
             {
-                AbstractFilter filter = EffectGroup[_effectIndex];
-                IBuffer outputBuffer = null;
 
-                if (_semaphore.WaitOne(500))
-                {
-                    outputBuffer = await filter.RenderJpegAsync(inputStream.GetWindowsRuntimeBuffer());
-                    _semaphore.Release();
-                }
-
-                if (outputBuffer != null)
-                {
-                    return outputBuffer.AsStream();
-                }
+                outputBuffer = await RenderJpegAsync(inputStream.GetWindowsRuntimeBuffer());
+                m_Semaphore.Release();
             }
+
+            if (outputBuffer != null)
+            {
+                return outputBuffer.AsStream();
+            }
+
             return null;
         }
-
-        //effect list
-        private void InitializeEffectList()
+        public virtual async Task<IBuffer> RenderJpegAsync(IBuffer buffer)
         {
-            EffectGroup = new EffectGroup<AbstractFilter>()
+            if (buffer == null || buffer.Length == 0)
             {
-                new LomoNeutralFilter(),
-                new LomoRedFilter(),
-                new LomoGreenFilter(),
-                new LomoBlueFilter(),
-                new LomoYellowFilter()
-            };
+                Debug.WriteLine(DebugTag + ": RenderJpegAsync(): The given buffer is null or empty!");
+                return null;
+            }
+
+
+            IBuffer outputBuffer;
+
+            using (var source = new BufferImageSource(buffer))
+            {
+                var effect = new FilterEffect(source);
+
+
+                using (var renderer = new JpegRenderer(effect))
+                {
+                    outputBuffer = await renderer.RenderAsync();
+                }
+
+                effect.Dispose();
+            }
+
+            return outputBuffer;
         }
+
     }
 }

@@ -75,6 +75,7 @@ namespace PerfectCamera
             if (FlashStateChanged != null)
             {
                 FlashStateChanged(_flashState);
+                closeFlash();
             }
         }
 
@@ -85,6 +86,7 @@ namespace PerfectCamera
             if (FlashStateChanged != null)
             {
                 FlashStateChanged(_flashState);
+                closeFlash();
             }
         }
 
@@ -95,6 +97,7 @@ namespace PerfectCamera
             if (FlashStateChanged != null)
             {
                 FlashStateChanged(_flashState);
+                closeFlash();
             }
         }
 
@@ -132,6 +135,15 @@ namespace PerfectCamera
 
             FlashOffImage.Source = new BitmapImage(new Uri("/Assets/FlashOffOn.png", UriKind.Relative));
             FlashOffButton.Foreground = new SolidColorBrush(Color.FromArgb(255, 249, 210, 100));
+        }
+        private void closeFlash()
+        {
+            var p = this.Parent as Popup;
+            if (p != null)
+            {
+                p.Child = null;
+                p.IsOpen = false;
+            }
         }
     }
 }

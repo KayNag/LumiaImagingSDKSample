@@ -126,7 +126,7 @@
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
+    <value>Excel Art</value>
   </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>add</value>
@@ -135,7 +135,7 @@
     <value>Menu Item</value>
   </data>
   <data name="ApplicationName" xml:space="preserve">
-    <value>Perfect Camera</value>
+    <value>Excel Art</value>
   </data>
   <data name="Brightness" xml:space="preserve">
     <value>Brightness</value>
@@ -214,5 +214,38 @@
   </data>
   <data name="Filter_Stamp" xml:space="preserve">
     <value>Stamp</value>
+  </data>
+  <data name="AboutPage_AboutRun" xml:space="preserve">
+    <value>Microsoft, Windows and Windows logo are trademarks of the Microsoft group of companies.
+
+© 2015 Microsoft Mobile; All rights reserved</value>
+  </data>
+  <data name="AboutPage_Hyperlink_Project" xml:space="preserve">
+    <value>Microsoft Mobile Service Terms - http://www.microsoft.com/mobile/service-terms
+Privacy Policy - http://www.microsoft.com/en/mobile/privacy/privacy/policy/privacy-policy/
+Microsoft, Windows and Windows logo are trademarks of the Microsoft group of companies.
+
+© 2015 Microsoft Mobile; All rights reserved</value>
+  </data>
+  <data name="AboutPage_ProjectRun" xml:space="preserve">
+    <value>For more information and application source code go to {0}.</value>
+  </data>
+  <data name="AboutPage_Title" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="AboutPage_VersionRun" xml:space="preserve">
+    <value>MSOfficeCam Demo version {0}</value>
+  </data>
+  <data name="AboutPrivacyPolicylink" xml:space="preserve">
+    <value>http://www.microsoft.com/en/mobile/privacy/privacy/policy/privacy-policy/</value>
+  </data>
+  <data name="Aboutservicetermlink" xml:space="preserve">
+    <value>http://www.microsoft.com/mobile/service-terms</value>
+  </data>
+  <data name="Aboutprivacy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Aboutterms" xml:space="preserve">
+    <value>Microsoft Mobile Service Terms</value>
   </data>
 </root>
